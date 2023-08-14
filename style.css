@@ -1,0 +1,116 @@
+body{
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("imagens/capa.png");
+    margin: 2em;
+    color: white;
+}
+
+.conteudo{
+    margin:10em 3em;   
+}
+
+a{
+    text-decoration: none;
+}
+
+#menu a:link, #menu a:visited{ 
+    padding: 40px;
+    color: #9C9DA2;
+}
+
+#menu a:hover{
+    color: white;
+}
+
+ #logo {
+    margin:50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.cinza{
+    color: #9C9DA2;
+}
+
+p  a:link, p a:visited{
+    color: #0449E9;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
+
+h1 span{
+    color:#0449E9;
+    font-size: 2em;
+}
+
+h1{
+    margin-top: 0%;
+}
+
+/*------Formulário----------*/
+.form-item {
+   max-width: 500px;
+   height: 20px;
+    margin-bottom: 15px;
+    position: relative;
+    color: grey;
+    font-size: 5px;
+   
+ }
+  
+.form-control {
+box-sizing: border-box;  
+border-radius: 8px;
+font-size: 16px;
+display: block;
+width: 70%;
+padding: 20px;
+background-color: #2a304e;
+margin-top: 27px;
+border:1px solid #0449E9;
+color: white;
+}   
+
+&:valid {
+    border:1px solid #0449E9;
+    background-color: #2a304e;
+  }
+
+  &:focus  { 
+    border:1px solid #0449E9;
+    background-color: #2a304e;
+  } 
+
+  .label-float {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    padding: 0 (@space / 2);
+    .transition(line-height linear .2s);
+    cursor: text;
+    font-size: 12px;
+    
+  }  
+
+  .form-control:focus + &,
+  .form-control:valid + & {
+     color: #2a304e;
+    font-size: 12px;
+    line-height: 1.5;
+    border:1px solid #0449E9;
+  } 
+
+.botao{
+    width: 8em;
+    height: 30px;
+    border-radius: 8px;
+    color: white;
+    background-color: #0449E9;
+    border: none;
+    cursor: pointer; /*mãozinha*/
+}
+
